@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simp7c86545d4eb549da97eebdd0f30af4de">
+  <meta>
+    <name>HW08_02</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>2</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>29</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>14</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-234c8a0112d74ed7a43d526b8e5d2378" name="" task-id-sequence="0">
+    <persons>
+      <person id="CDoZfQE0eoPT0twKUywpAwSEOcbEZ0Lts4uDGnycvx/uLPgS">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-7314680f2fa5424fa3df8cb128e331ff" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="collection" tid="" name="collection" description="" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="pd74db051b9ec46bc962ac468c703720a_830135508" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>12/28/2025 12:33:55</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p7ba8f4b292634bbdb76cd6eff92130be_348315201" name="ClassDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-4,-14">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>12/28/2025 12:33:55</creation-date>
+          <change-date>12/28/2025 12:36:04</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="1080a4094b9f443c90319051a7526a1d" cid="C001" type="class" name="Stack" style-class="" change-tracking-state="added" creator="CDoZfQE0eoPT0twKUywpAwSEOcbEZ0Lts4uDGnycvx/uLPgS" creation-date="12/28/2025 12:34:10">
+            <owned-items>
+              <owned-item ref="0bb7451421fe4b83b439635584f95570" />
+            </owned-items>
+            <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF555555" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF555555" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="solid" colors="#FFFFD5D5,#FFF2F2F2" />
+              <border color="#FF555555" width="2" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" colors="#FF203D85,#FF203D85" />
+                  <border color="#FF203D85" width="2" dash-style="Solid" />
+                  <label-connector color="#80000000" width="1" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="ac939efc56e444a3982ca31df0e9a401c155" cid="PROP001" name="data" creation-date="12/28/2025 12:34:20" property-ref="0bb7451421fe4b83b439635584f95570" />
+            </attributes>
+            <operations>
+              <operation id="o07fbdb1bd5bb405f9ee57d2d7653b2bd47" cid="ELEM001" name="push" creation-date="12/28/2025 12:34:48" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p388bb562c282475fb58a22f6cec00ad8" name="x" type="" type-id="" />
+                </parameters>
+              </operation>
+              <operation id="of837fb6a47d64f6e87dfd1c625b9f819411" cid="ELEM002" name="pop" creation-date="12/28/2025 12:35:05" type="" type-id="" visibility="public" />
+              <operation id="o3429e783435d463b8009855afd0b1ec074" cid="ELEM003" name="peek" creation-date="12/28/2025 12:35:11" type="" type-id="" visibility="public" />
+              <operation id="of86185fd20c740388dd03008991d0a77225" cid="ELEM004" name="size" creation-date="12/28/2025 12:35:19" type="" type-id="" visibility="public" />
+              <operation id="o8f9a9e147dc748bd8508ef77be2e72b6606" cid="ELEM005" name="empty" creation-date="12/28/2025 12:35:28" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="0bb7451421fe4b83b439635584f95570" cid="PROP001" type="property" name="data" style-class="" owner="1080a4094b9f443c90319051a7526a1d" creator="CDoZfQE0eoPT0twKUywpAwSEOcbEZ0Lts4uDGnycvx/uLPgS" creation-date="12/28/2025 12:34:20" visibility="private">
+            <feature />
+            <structural-feature type="collection" type-id="collection" />
+            <property />
+          </item>
+          <item id="35bbbeabf1354fe69c86d42af4bf46b2" cid="C002" type="class" name="List" style-class="" change-tracking-state="added" creator="CDoZfQE0eoPT0twKUywpAwSEOcbEZ0Lts4uDGnycvx/uLPgS" creation-date="12/28/2025 12:36:04">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF555555" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF555555" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="solid" colors="#FFD5FFFF,#FFF2F2F2" />
+              <border color="#FF555555" width="2" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" colors="#FF203D85,#FF203D85" />
+                  <border color="#FF203D85" width="2" dash-style="Solid" />
+                  <label-connector color="#80000000" width="1" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <operations>
+              <operation id="o2537687553ec4309839658d18a1d58f4881" cid="ELEM007" name="insertFront" creation-date="12/28/2025 12:36:18" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pb9363333204c4ddf91234a6b6dc4526d" name="x" type="" type-id="" />
+                </parameters>
+              </operation>
+              <operation id="odba0fbd850e242cfb71c8f55ddda6cfd526" cid="ELEM008" name="insertBack" creation-date="12/28/2025 12:37:05" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pc681ce358e194872a2e46558b26f3f63" name="x" type="" type-id="" />
+                </parameters>
+              </operation>
+              <operation id="o504661ad0f5442219b46cc67185317e4898" cid="ELEM009" name="insert" creation-date="12/28/2025 12:37:26" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p2f482aa1b3da4e9ebef08acf6067cd21" name="index" type="" type-id="" />
+                  <parameter id="pb685b62bcd714396a8398bf101c7ee5d" name="x" type="" type-id="" />
+                </parameters>
+              </operation>
+              <operation id="o52d3e9c3807f48a2a5c3a3f48637b13c68" cid="ELEM010" name="remove" creation-date="12/28/2025 12:37:49" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pe76038b692ea490bb0be47e0a682add1" name="index" type="" type-id="" />
+                </parameters>
+              </operation>
+              <operation id="od444f74e10b547d8ba122cff3e20487b40" cid="ELEM011" name="removeBack" creation-date="12/28/2025 12:38:17" type="" type-id="" visibility="public" />
+              <operation id="od0824e699f6a48dba67c695a2abc50e0430" cid="ELEM012" name="front" creation-date="12/28/2025 12:38:44" type="" type-id="" visibility="public" />
+              <operation id="ocebf612f51c34de78020bc785de350e5478" cid="ELEM013" name="back" creation-date="12/28/2025 12:38:55" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+        </abstract-items>
+        <layer id="06e58e4f70b64208b2eebc22651d1034" name="Default" visible="true" enabled="true" locked="false">
+          <item id="1080a4094b9f443c90319051a7526a1d" iid="646e449fb77f44fa95d986f8321eff4a" creation-date="12/28/2025 12:34:10" order-index="0" type="entity">
+            <layout ax="71" ay="62" awidth="140" aheight="179" x="71" y="62" width="140" height="160" />
+            <class />
+          </item>
+          <item id="35bbbeabf1354fe69c86d42af4bf46b2" iid="974723257e43477a8ed0245f38d1d97f" creation-date="12/28/2025 12:36:04" order-index="1" type="entity">
+            <layout ax="270" ay="62" awidth="140" aheight="170" x="270" y="58" width="140" height="160" />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
